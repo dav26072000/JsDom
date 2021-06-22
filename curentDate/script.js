@@ -7,9 +7,9 @@ let getCurrentDate = new Date();
 
 // getting curent date
 let getCurrentHour =
-  getCurrentDate.getHours() * 6 +
-  getCurrentDate.getMinutes() * 0.1 +
-  getCurrentDate.getSeconds() * 0.01666666;
+  getCurrentDate.getHours() * 30 +
+  getCurrentDate.getMinutes() * 0.5 +
+  getCurrentDate.getSeconds() * 0.0083333333333333;
 
 let getCurrentMinute =
   getCurrentDate.getMinutes() * 6 + getCurrentDate.getSeconds() * 0.1;
