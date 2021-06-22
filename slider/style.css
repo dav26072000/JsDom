@@ -70,9 +70,9 @@
   height: 100%;
 }
 
-/* .slider-item:first-child {
-  opacity: 1 !important;
-} */
+.slider-item {
+  transition: all 250ms ease;
+}
 
 .slider-main__image-1 {
   background-color: #819090;
