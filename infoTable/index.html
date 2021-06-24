@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th id="age-sort">Age</th>
+                <th>Average Grade</th>
+                <!-- <th></th> -->
+            </tr>
+        </thead>
+        <tbody class="styled-table__tbody">
+            <tr>
+                <td>Dom</td>
+                <td class="user-age">6</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Melissa</td>
+                <td class="user-age">51</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Melissa</td>
+                <td class="user-age">15</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Melissa</td>
+                <td class="user-age">48</td>
+                <td>18</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><input type="text" placeholder="Name" class="input-info" name="name"></td>
+                <td><input type="number" placeholder="Age" class="input-info" name="age" min="0" max="150"></td>
+                </td>
+                <td>
+                    <input type="number" placeholder="Average Grade" name="average" class="input-info" min="0" max="20">
+                    <button id="add-info"> <i class="fas fa-plus"></i></button>
+                </td>
+                <!-- <td><button> Add </button></td> -->
+            </tr>
+        </tfoot>
+
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
